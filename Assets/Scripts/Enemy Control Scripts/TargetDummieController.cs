@@ -70,6 +70,8 @@ public class TargetDummieController : MonoBehaviour {
 
     void Die()
     {
+        Debug.Log("Ded");
+
         //Debug.Log("Enemy Target: " + targetController);
         //DropLoot();
 
