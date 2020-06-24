@@ -1,0 +1,200 @@
+[
+  {
+    "type": "meleeWeapon",
+    "id": 0,
+    "title": "Wooden Sword",
+    "description": "A sword made of wood",
+    "range": 2.0,
+    "value": 6,
+    "stats": {
+      "damage": -1,
+      "speed": 2.0,
+      "health": 2,
+      "strength": 2,
+      "agility": 2,
+      "intellect": 0
+    },
+    "stackable": false,
+    "slug": "wooden_sword"
+  },
+  {
+    "type": "meleeWeapon",
+    "id": 1,
+    "title": "Steel Sword",
+    "description": "A sword made from steel",
+    "range": 2.0,
+    "value": 24,
+    "stats": {
+      "damage": 3,
+      "speed": 2.0,
+      "health": 3,
+      "strength": 4,
+      "agility": 3,
+      "intellect": 0
+    },
+    "stackable": false,
+    "slug": "steel_sword"
+  },
+  {
+    "type": "meleeWeapon",
+    "id": 2,
+    "title": "Crude hatchet",
+    "description": "A crudely made hatchet",
+    "range": 2.0,
+    "value": 13,
+    "stats": {
+      "damage": 2,
+      "speed": 1.7,
+      "health": 2,
+      "strength": 3,
+      "agility": 2,
+      "intellect": 0
+    },
+    "stackable": false,
+    "slug": "crude_hatchet"
+  },
+  {
+    "type": "meleeWeapon",
+    "id": 3,
+    "title": "Quarter-Staff",
+    "description": "Made from a sturdy oak tree",
+    "range": 3.0,
+    "value": 16,
+    "stats": {
+      "damage": 1,
+      "speed": 3.0,
+      "health": 2,
+      "strength": 2,
+      "agility": 1,
+      "intellect": 3
+    },
+    "stackable": false,
+    "slug": "quarterstaff"
+  },
+  {
+    "type": "armour",
+    "id": 4,
+    "title": "Cloth Robe",
+    "description": "A simple cloth robe",
+    "slot": 1,
+    "value": 4,
+    "stats": {
+      "armour": 3,
+      "health": 2,
+      "strength": 1,
+      "agility": 0,
+      "intellect": 3,
+      "dodge": 0.02
+    },
+    "stackable": false,
+    "slug": "cloth_robe"
+  },
+  {
+    "type": "armour",
+    "id": 5,
+    "title": "Cloth Hood",
+    "description": "A simple cloth hood",
+    "slot": 0,
+    "value": 2,
+    "stats": {
+      "armour": 1,
+      "health": 1,
+      "strength": 0,
+      "agility": 0,
+      "intellect": 4,
+      "dodge": 1.0
+    },
+    "stackable": false,
+    "slug": "cloth_hood"
+  },
+  {
+    "type": "armour",
+    "id": 6,
+    "title": "Cloth Trousers",
+    "description": "Simple cloth trousers",
+    "slot": 2,
+    "value": 3,
+    "stats": {
+      "armour": 2,
+      "health": 2,
+      "strength": 0,
+      "agility": 0,
+      "intellect": 2,
+      "dodge": 1.0
+    },
+    "stackable": false,
+    "slug": "cloth_trousers"
+  },
+  {
+    "type": "armour",
+    "id": 7,
+    "title": "Cloth shoes",
+    "description": "Simple cloth shoes",
+    "slot": 3,
+    "value": 2,
+    "stats": {
+      "armour": 1,
+      "health": 1,
+      "strength": 0,
+      "agility": 0,
+      "intellect": 1,
+      "dodge": 0.0
+    },
+    "stackable": false,
+    "slug": "cloth_shoes"
+  },
+  {
+    "type": "armour",
+    "id": 8,
+    "title": "Brown Robe",
+    "description": "A brown cloth robe",
+    "slot": 1,
+    "value": 7,
+    "stats": {
+      "armour": 4,
+      "health": 3,
+      "strength": 1,
+      "agility": 0,
+      "intellect": 4,
+      "dodge": 3.0
+    },
+    "stackable": false,
+    "slug": "cloth_robe_brown"
+  },
+  {
+    "type": "rangedWeapon",
+    "id": 9,
+    "title": "Short Bow",
+    "description": "A simple bow",
+    "range": 10.0,
+    "value": 16,
+    "stats": {
+      "damage": 2,
+      "speed": 2.2,
+      "health": 1,
+      "strength": 1,
+      "agility": 3,
+      "intellect": 0
+    },
+    "stackable": false,
+    "slug": "short_bow"
+  },
+  {
+    "type": "armour",
+    "id": 10,
+    "title": "Steel Chest Plate",
+    "description": "A hardend steel chest plate",
+    "slot": 1,
+    "value": 7,
+    "stats": {
+      "armour": 6,
+      "health": 3,
+      "strength": 8,
+      "agility": 2,
+      "intellect": 0,
+      "dodge": 0.0
+    },
+    "stackable": false,
+    "slug": "steel_chest"
+  }
+]

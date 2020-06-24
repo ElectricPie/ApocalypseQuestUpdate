@@ -1,0 +1,307 @@
+[
+  {
+		"type": "meleeWeapon",
+		"id": 0,
+		"title": "Iron Sword",
+		"description": "A sword made from iron",
+		"range": 2.0,
+		"value": 20,
+		"stats": {
+			"damage": 5,
+			"speed": 2.0,
+			"health": 3,
+			"strength": 4,
+			"agility": 3,
+			"intellect": 0
+		},
+		"stackable": false,
+		"slug": "iron_sword"
+	}, {
+		"type": "rangedWeapon",
+		"id": 1,
+		"title": "Short Bow",
+		"description": "A simple bow",
+		"range": 10.0,
+		"value": 22,
+		"stats": {
+			"damage": 6,
+			"speed": 2.2,
+			"health": 2,
+			"strength": 2,
+			"agility": 5,
+			"intellect": 0
+		},
+		"stackable": false,
+		"slug": "short_bow"
+	}, 
+ 	{
+		"type": "meleeWeapon",
+		"id": 2,
+		"title": "Quaterstaff",
+		"description": "A simple quaterstaff",
+		"range": 3.0,
+		"value": 12,
+		"stats": {
+			"damage": 4,
+			"speed": 2.8,
+			"health": 2,
+			"strength": 1,
+			"agility": 2,
+			"intellect": 4
+		},
+		"stackable": false,
+		"slug": "quarterstaff"
+	}, 
+ 	{
+		"type": "rangedWeapon",
+		"id": 3,
+		"title": "Crossbow",
+		"description": "A simple crossbow",
+		"range": 7.0,
+		"value": 32,
+		"stats": {
+			"damage": 8,
+			"speed": 4.2,
+			"health": 4,
+			"strength": 3,
+			"agility": 5,
+			"intellect": 1
+		},
+		"stackable": false,
+		"slug": "crossbow"
+	}, 
+ 	{
+		"type": "meleeWeapon",
+		"id": 4,
+		"title": "Crude Hatchet",
+		"description": "A crudely made hatchet",
+		"range": 1.7,
+		"value": 9,
+		"stats": {
+			"damage": 3,
+			"speed": 1.6,
+			"health": 2,
+			"strength": 3,
+			"agility": 3,
+			"intellect": 0
+		},
+		"stackable": false,
+		"slug": "crude_hatchet"
+	}, 
+ 	{
+		"type": "meleeWeapon",
+		"id": 5,
+		"title": "Great Axe of Power",
+		"description": "A large axe enchanted with superior attacking power",
+		"range": 2.6,
+		"value": 53,
+		"stats": {
+			"damage": 16,
+			"speed": 2.7,
+			"health": 8,
+			"strength": 11,
+			"agility": 7,
+			"intellect": 2
+		},
+		"stackable": false,
+		"slug": "great_power_axe"
+	}, 
+ 	{
+		"type": "rangedWeapon",
+		"id": 6,
+		"title": "Compount Bow of Speed",
+		"description": "A powerfull bow enchanted with fast firing",
+		"range": 13.0,
+		"value": 54,
+		"stats": {
+			"damage": 9,
+			"speed": 1.8,
+			"health": 6,
+			"strength": 5,
+			"agility": 12,
+			"intellect": 3
+		},
+		"stackable": false,
+		"slug": "compound_speed_bow"
+	}, 
+ 	{
+		"type": "meleeWeapon",
+		"id": 7,
+		"title": "Staff of Frost",
+		"description": "A staff enchated with frosty properties",
+		"range": 3.0,
+		"value": 46,
+		"stats": {
+			"damage": 6,
+			"speed": 3.2,
+			"health": 4,
+			"strength": 6,
+			"agility": 3,
+			"intellect": 14
+		},
+		"stackable": false,
+		"slug": "frost_staff"
+	},
+ 	{
+		"type": "meleeWeapon",
+		"id": 8,
+		"title": "Sword of Sorrow",
+		"description": "This sword is imbued with dark magics, granting the wielder great power but at a cost",
+		"range": 2.2,
+		"value": 134,
+		"stats": {
+			"damage": 26,
+			"speed": 2.3,
+			"health": -28,
+			"strength": 24,
+			"agility": 12,
+			"intellect": -14
+		},
+		"stackable": false,
+		"slug": "dark_sword"
+	},
+	{
+		"type": "armour",
+		"id": 9,
+		"title": "Iron Chest Plate",
+		"description": "A hardend iron chest plate",
+		"slot": 2,
+		"value": 15,
+		"stats": {
+			"armour": 8,
+			"health": 5,
+			"strength": 4,
+			"agility": 1,
+			"intellect": 0,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "iron_chest"
+	},
+	{
+		"type": "armour",
+		"id": 10,
+		"title": "Cloth Robe",
+		"description": "A simple cloth robe",
+		"slot": 2,
+		"value": 7,
+		"stats": {
+			"armour": 2,
+			"health": 2,
+			"strength": 1,
+			"agility": 0,
+			"intellect": 6,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "blue_robe"
+	},
+	{
+		"type": "armour",
+		"id": 11,
+		"title": "Simple Cloak",
+		"description": "A simple cloak",
+		"slot": 1,
+		"value": 28,
+    "stats": {
+      "armour": 3,
+      "health": 5,
+      "strength": 4,
+      "agility": 4,
+      "intellect": 4,
+      "dodge": 0.0
+    },
+		"stackable": false,
+		"slug": "blue_cloak"
+	},
+	{
+		"type": "armour",
+		"id": 12,
+		"title": "Leather Chest",
+		"description": "A simple leather chest",
+		"slot": 2,
+		"value": 12,
+		"stats": {
+			"armour": 5,
+			"health": 3,
+			"strength": 2,
+			"agility": 5,
+			"intellect": 1,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "simple_leather"
+	},
+	{
+		"type": "armour",
+		"id": 13,
+		"title": "Studded Leather Chest",
+		"description": "A strong but manoeuvrable chest piece",
+		"slot": 2,
+		"value": 70,
+		"stats": {
+			"armour": 16,
+			"health": 18,
+			"strength": 11,
+			"agility": 23,
+			"intellect": 5,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "studded_leather"
+	},
+	{
+		"type": "armour",
+		"id": 14,
+		"title": "High Magus Robes",
+		"description": "This robe allows those with magical ablitys to aplify their power",
+		"slot": 2,
+		"value": 89,
+		"stats": {
+			"armour": 13,
+			"health": 14,
+			"strength": 3,
+			"agility": 5,
+			"intellect": 28,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "red_robe"
+	},
+	{
+		"type": "armour",
+		"id": 15,
+		"title": "Imperial Cloak",
+		"description": "A cloak made for those of royalty ",
+		"slot": 1,
+		"value": 130,
+		"stats": {
+			"armour": 13,
+			"health": 27,
+			"strength": 15,
+			"agility": 15,
+			"intellect": 15,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "imperial_cloak"
+	},
+	{
+		"type": "armour",
+		"id": 16,
+		"title": "Dragon Scale Chest Plate",
+		"description": "Armour made from the scales of a mighty dragon",
+		"slot": 2,
+		"value": 160,
+		"stats": {
+			"armour": 40,
+			"health": 56,
+			"strength": 24,
+			"agility": 13,
+			"intellect": 2,
+			"dodge": 0.0
+		},
+		"stackable": false,
+		"slug": "dragon_scale_plate"
+	}
+]
