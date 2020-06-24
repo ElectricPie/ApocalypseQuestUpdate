@@ -73,7 +73,7 @@ public class TargetDummieController : MonoBehaviour {
         //Debug.Log("Enemy Target: " + targetController);
         //DropLoot();
 
-        //DropLoot();
+        DropLoot();
         Destroy(gameObject);
     }
 
@@ -87,6 +87,8 @@ public class TargetDummieController : MonoBehaviour {
         {
             GameObject newLoot = Instantiate(lootPrefab) as GameObject;
             newLoot.transform.position = lootPost.position;
+            
+            /*
             LootData loot = newLoot.GetComponent<LootData>();
 
             int lootTotal = npc.Loot.Count;
@@ -95,6 +97,7 @@ public class TargetDummieController : MonoBehaviour {
             Debug.Log("LootRNG: " + lootRNG);
 
             loot.itemID = npc.Loot[lootRNG];
+            */
         }
 
         Debug.Log("Dropped");

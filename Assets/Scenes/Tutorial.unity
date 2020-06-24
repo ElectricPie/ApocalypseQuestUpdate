@@ -6382,7 +6382,6 @@ GameObject:
   m_Component:
   - component: {fileID: 624202849}
   - component: {fileID: 624202851}
-  - component: {fileID: 624202850}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Enemy
@@ -6404,21 +6403,6 @@ Transform:
   m_Father: {fileID: 1599831562}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &624202850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624202848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cec5eac3818e341b35df6d21a05e00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dropChance: 0
-  lootPrefab: {fileID: 0}
-  indicatorPrefab: {fileID: 0}
 --- !u!212 &624202851
 SpriteRenderer:
   m_ObjectHideFlags: 0

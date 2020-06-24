@@ -23,7 +23,7 @@ public class TutStage3Cont : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Debug.Log("Target Active: " + target.activeSelf + " | set2Done: " + set2Done);
-		if (!target.activeSelf && !set2Done)
+        if (target == null && !set2Done)
         {
             tutPanel.SetActive(true);
             tutTitle.text = "Inventory";
