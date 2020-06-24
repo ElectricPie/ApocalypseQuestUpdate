@@ -24,11 +24,11 @@ public class BrotherControll : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (!explosiveBarrel.activeSelf)
+        if (explosiveBarrel == null)
             agent.destination = dest4.transform.position;
-        else if (!target3.activeSelf && !target2.activeSelf)
+        else if (target3 == null && target2 == null)
             agent.destination = dest3.transform.position;
-        else if (!target1.activeSelf)
+        else if (target1 == null)
             agent.destination = dest2.transform.position;
         else
             Invoke("MoveToFirst", 2);
