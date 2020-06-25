@@ -69,12 +69,14 @@ public class Inventory : MonoBehaviour {
         AddItem(4);
         AddItem(9);
         AddItem(10);
-        */
+        
         AddItem(0);
         AddItem(1);
         AddItem(5);
         AddItem(11);
         AddItem(12);
+        */
+
         /*
         for (int i = 0; i < 17; i++)
             AddItem(i);
