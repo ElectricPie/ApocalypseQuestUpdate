@@ -21,8 +21,6 @@ public class MeleeHit : MonoBehaviour {
         //Debug.Log("Tag: " + other);
         if (other.CompareTag(damageTag))
         {
-
-            Debug.Log("Hit + " + name);
             int strengthMod = (int)(player.GetComponent<PlayerStats>().Strength / (player.GetComponent<PlayerController>().level + 1));
             int damage = inv.items[4].Damage + strengthMod;
 

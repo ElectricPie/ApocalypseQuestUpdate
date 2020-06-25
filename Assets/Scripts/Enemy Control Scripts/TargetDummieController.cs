@@ -70,8 +70,6 @@ public class TargetDummieController : MonoBehaviour {
 
     void Die()
     {
-        Debug.Log("Ded");
-
         //Debug.Log("Enemy Target: " + targetController);
         //DropLoot();
 
@@ -101,7 +99,5 @@ public class TargetDummieController : MonoBehaviour {
             loot.itemID = npc.Loot[lootRNG];
             */
         }
-
-        Debug.Log("Dropped");
     }
 }

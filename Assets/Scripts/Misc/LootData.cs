@@ -7,15 +7,18 @@ public class LootData : MonoBehaviour {
 
     private Inventory inv;
     private ItemDatabase itemDatabase;
+
+    [SerializeField]
+    private TextMesh m_textMesh = null;
     
 	void Start () {
         inv = GameObject.Find("Inventory").GetComponent<Inventory>();
         itemDatabase = GameObject.Find("Inventory").GetComponent<ItemDatabase>();
 
-        transform.GetChild(0).GetComponent<TextMesh>().text = itemDatabase.FetchItemByID(itemID).Title;
+        m_textMesh.text = itemDatabase.FetchItemByID(itemID).Title;
         //Debug.Log("Looking for item");
         //Debug.Log("Item: " + itemDatabase.FetchItemByID(itemID));
-        transform.GetChild(1).GetComponent<SpriteRenderer>().sprite = itemDatabase.FetchItemByID(itemID).Sprite;
+        transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = itemDatabase.FetchItemByID(itemID).Sprite;
     }
 
     private void OnTriggerEnter(Collider other)
