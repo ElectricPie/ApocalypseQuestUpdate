@@ -1056,12 +1056,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1154967779754860, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Name
+      value: Dropped Loot 1
       objectReference: {fileID: 0}
     - target: {fileID: 1154967779754860, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
-      propertyPath: m_TagString
-      value: Item
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4674407130663868, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1095,11 +1095,23 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4674407130663868, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674407130663868, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674407130663868, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114689843364481360, guid: 2bfe089005c42b244bd7772e9ae766e2,
         type: 3}
-      propertyPath: m_textMesh
-      value: 
-      objectReference: {fileID: 1729794288}
+      propertyPath: itemID
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bfe089005c42b244bd7772e9ae766e2, type: 3}
 --- !u!1 &111960960
@@ -10182,8 +10194,9 @@ MonoBehaviour:
   tutPanel: {fileID: 1544610034}
   tutTitle: {fileID: 1102803652}
   tutDes: {fileID: 669622529}
-  charBtn: {fileID: 0}
-  bagsBtn: {fileID: 0}
+  bagsBtn: {fileID: 1854386522}
+  charBtn: {fileID: 2017249584}
+  rangedBtn: {fileID: 337377380}
   set2Done: 0
 --- !u!1 &976772672
 GameObject:
@@ -16992,12 +17005,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723606815}
   m_CullTransparentMesh: 0
---- !u!102 &1729794288 stripped
-TextMesh:
-  m_CorrespondingSourceObject: {fileID: 102452747797974594, guid: 2bfe089005c42b244bd7772e9ae766e2,
-    type: 3}
-  m_PrefabInstance: {fileID: 97279452}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1731879523
 GameObject:
   m_ObjectHideFlags: 0

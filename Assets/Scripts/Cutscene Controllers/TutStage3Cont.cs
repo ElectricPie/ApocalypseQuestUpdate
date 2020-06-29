@@ -10,8 +10,9 @@ public class TutStage3Cont : MonoBehaviour {
     public Text tutTitle;
     public Text tutDes;
 
-    public GameObject charBtn;
     public GameObject bagsBtn;
+    public GameObject charBtn;
+    public GameObject rangedBtn;
 
     public bool set2Done;
 
@@ -29,6 +30,10 @@ public class TutStage3Cont : MonoBehaviour {
             tutTitle.text = "Inventory";
             tutDes.text = "Hey, that target had a bow in it. You should try it out \n(Open you bags and character windows and drag the bow onto the ranged weapon slot";
             set2Done = true;
+
+            charBtn.SetActive(true);
+            bagsBtn.SetActive(true);
+            rangedBtn.SetActive(true);
         }
 	}
 }

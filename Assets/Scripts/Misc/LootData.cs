@@ -23,7 +23,7 @@ public class LootData : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Other: " + other.tag + " | name: " + other.transform.name);
+        //Debug.Log("Other: " + other.tag + " | name: " + other.transform.name);
 
         if (other.CompareTag("Player"))
         {

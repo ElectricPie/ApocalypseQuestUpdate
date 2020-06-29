@@ -28,8 +28,8 @@ public class TutorialUIController : MonoBehaviour {
     void DisableUI()
     {
         rangedBtn.SetActive(false);
-        //charBtn.SetActive(false);
-        //bagsBtn.SetActive(false);
+        charBtn.SetActive(false);
+        bagsBtn.SetActive(false);
         canvas.SetActive(false);
     }
 
