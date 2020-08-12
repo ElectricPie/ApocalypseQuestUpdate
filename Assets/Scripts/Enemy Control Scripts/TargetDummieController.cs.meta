@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a6cec5eac3818e341b35df6d21a05e00
+timeCreated: 1495321025
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - lootPrefab: {fileID: 1154967779754860, guid: 2bfe089005c42b244bd7772e9ae766e2,
+      type: 2}
+  - indicatorPrefab: {fileID: 1884761273276428, guid: 7e3608b9135d9cd4cba8b32ddc30be3f,
+      type: 2}
+  executionOrder: 160
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
